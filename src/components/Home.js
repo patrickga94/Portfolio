@@ -4,7 +4,7 @@ import {Container, Form, Button} from 'react-bootstrap'
 
 const Home = (props) => {
     return (
-        <Container>
+        <Container className="mb-5">
             <h1 className="text-center mt-5">Hi! I'm Patrick, a fullstack developer!</h1>
             <hr />
             {/* <div className="photo">
