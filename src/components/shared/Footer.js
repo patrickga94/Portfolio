@@ -11,7 +11,7 @@ const Footer = (props) => {
         <Navbar className="navbar fixed-bottom" id="footer" expand="md">
             <div className="container">
                 <a href="https://www.linkedin.com/in/patrick-g-alvarez/" target="_blank" style={linkStyle}>Linkedin</a>
-                <a href="/home/patrickalvarez/sei/projects/postgrad/portfolio/public/Patrick-Alvarez-updated-resume.pdf" download={"Patrick-Alvarez-resume"} style={linkStyle}>Resume</a>
+                <Link to="/Patrick-Alvarez-updated-resume.pdf" download target={"_blank"} style={linkStyle}>Resume</Link>
                 <a href="https://github.com/patrickga94" target="_blank" style={linkStyle}>Github</a>
             </div>
         </Navbar>
