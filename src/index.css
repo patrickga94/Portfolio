@@ -8,11 +8,11 @@ body {
 }
 
 #root{
-  background-color: whitesmoke;
+  background-color: #eae2b7;
 }
 
 html{
-  background-color: whitesmoke;
+  background-color: #eae2b7;
 }
 
 code {
@@ -31,4 +31,21 @@ code {
 #navbox {
   display: flex;
   justify-content: space-between;
+}
+
+#aboutMe{
+  width: 40%;
+  border: 2px solid #f77f00;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  height: 400px;
+  border-radius: 20px;
 }
