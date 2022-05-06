@@ -59,5 +59,13 @@ img{
 }
 
 .description{
+  display: none;
+  background-color: rgba(252, 191, 73, .5);
   width: 40vw;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.project-link:hover + .description{
+  display: inline;
 }
