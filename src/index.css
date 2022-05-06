@@ -42,10 +42,22 @@ code {
 
 #project{
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img{
   height: 200px;
 
+}
+
+.project-link {
+  border: 2px solid black;
+  width: fit-content;
+  margin: 10px;
+}
+
+.description{
+  width: 40vw;
 }
