@@ -6,15 +6,21 @@ const Portfolio = (props) => {
     return (
         <Container>
             <h1 className="text-center mt-3">Projects:</h1>
-            <div className="row mt-4" id="project">
-                <div className="col-sm">
-                    <img src="/homiequest.png" alt="A robot standing on the street with cars heading towards it" />
+            <div className="mt-4" id="project">
+                <div>
+                    <a href="https://patrickga94.github.io/Project-1-Homie-Quest/" target={'_blank'}>
+                        <img src="/homiequest.png" alt="A robot standing on the street with cars heading towards it" />
+                    </a>
                 </div>
-                <div className="col-sm">
-                 <img src="/spellbook.png" alt="" />
+                <div>
+                    <a href="https://adventurerspellbook.herokuapp.com/" target={'_blank'}>
+                        <img src="/spellbook.png" alt="" />
+                    </a>
                 </div>
-                <div className="col-sm">
-                    <img src="/happy-hour.png" alt="" />
+                <div>
+                    <a href="https://its-happy-hour.herokuapp.com/" target={'_blank'}>
+                        <img src="/happy-hour.png" alt="" />
+                    </a>
                 </div>
             </div>
         </Container>

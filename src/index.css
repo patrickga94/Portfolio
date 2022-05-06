@@ -40,9 +40,9 @@ code {
   padding: 15px;
 }
 
-.project{
+#project{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 img{
