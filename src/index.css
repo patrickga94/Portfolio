@@ -33,7 +33,7 @@ code {
   justify-content: space-between;
 }
 
-#aboutMe{
+#aboutMe, #contact{
   width: 40%;
   border: 2px solid #f77f00;
   border-radius: 20px;

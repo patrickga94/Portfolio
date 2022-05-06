@@ -12,7 +12,7 @@ const Header = (props) => {
             <div className="container" id='navbox'>
                 <Link to='/' className='m-2' style={linkStyle}>Home</Link>
                 <Link to='/portfolio' className='m-2' style={linkStyle}>Portfolio</Link>
-                <Link to='/contact' className='m-2' style={linkStyle}>Contact</Link>
+                {/* <Link to='/contact' className='m-2' style={linkStyle}>Contact</Link> */}
             </div>
         </Navbar>
     )
